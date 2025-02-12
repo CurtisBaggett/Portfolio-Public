@@ -1,0 +1,332 @@
+/*=====================
+      == Background CSS ==
+      ======================*/
+/* html {
+  width: 100%;
+  height: 100%;
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/*
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#11e8bb', endColorstr='#8200c9',GradientType=0 ); /* IE6-9 */
+/*
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+}  */
+
+/*Slider Bar */
+#slidecontainer {
+  position:relative;
+  width: 100%;
+  text-align: center;
+}
+
+.sliderLabel {
+  font-family: "Electrolize", "Roboto", sans-serif;
+  color: #000000;
+  display: block; 
+  margin-bottom: 5px; 
+  font-weight: bold;
+}
+
+.slider {
+  appearance: none;
+  width: 150px;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.8;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2),
+    0 1px 1px 0 rgba(0, 0, 0, 0.19);
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #03700a;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #03700a;
+  cursor: pointer;
+}
+
+/*Chrome*/
+.slider::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  color: #25ad2e;
+  background-size: var(--background-size, 0%) 100%;
+  background-repeat: no-repeat;
+}
+
+.slider::-moz-range-progress {
+  background-color: #03700a;
+}
+
+/* Toggle Button */
+.toggle-container {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.toggle-container input {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: all;
+}
+
+.toggle {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #999999;
+  transition: 0.4s;
+  pointer-events: none;
+}
+
+.toggle::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 8px;
+  bottom: 8px;
+  background-color: #fff;
+  transition: 0.2s;
+  pointer-events: none;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2),
+    0 2px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.toggle::after {
+  position: absolute;
+  font-family: "Electrolize", "Roboto", sans-serif;
+  content: "Off";
+  height: 22px;
+  width: 22px;
+  right: 18px;
+  bottom: 6px;
+  transition: 0.2s;
+  color: #fff;
+  pointer-events: none;
+}
+
+input:checked+.toggle {
+  background-color: #03700a;
+}
+
+input:checked+.toggle:before {
+  transform: translateX(40px);
+}
+
+input:checked+.toggle:after {
+  content: "On";
+  left: 15px;
+}
+
+.toggle.round {
+  border-radius: 34px;
+}
+
+.toggle.round:before {
+  border-radius: 50%;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: #03700a;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  border: 4px solid white;
+  outline: 2px solid gray;
+  opacity: 0.8;
+}
+
+.button:hover {
+  opacity: 1;
+  color: white;
+  box-shadow: 0 0 10px rgb(31, 30, 46);
+  transform: scale(1.03);
+}
+
+.button:active {
+  transform: scale(0.99);
+}
+
+/*===========================
+      ===== Hud Button CSS ====
+      ===========================*/
+
+label#focus.active {
+  color: rgba(255, 255, 0);
+  text-shadow: 2px 2px 2px rgb(23, 23, 23);
+  background: rgba(0, 0, 0, 0.1) 80%;
+}
+
+.Base {
+  padding: 0.5vw;
+  user-select: none;
+}
+
+.Base[skin="hud2"] button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Electrolize", "Roboto", sans-serif;
+  font-size: 2.7vh;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.9);
+  /* margin: 1vw; */
+  padding: 0.3vw;
+  color: #fff;
+  border: 0.052vw solid black;
+  border-radius: 2vh;
+  border-color: #a9a9a9;
+  background-image: linear-gradient(#f1f1f1,
+      #e7e9e9 50%,
+      #a5aaa9 60%,
+      #e7e9e9 88%,
+      #fff);
+  box-shadow: 0 0.052vw 0.052vw #fff, 0 0vw 0.104vw #666,
+    inset 0 -0.104vw 0.052vw #a9a9a9,
+    inset 0 0.104vw 0.052vw rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transform: skewX(-15deg);
+}
+
+.Base[skin="hud2"] button:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.7);
+  width: 60px;
+  height: 100%;
+  top: 0;
+  filter: blur(30px);
+  transform: translateX(-100px) skewX(-15deg);
+}
+
+.Base[skin="hud2"] button:hover::before {
+  transform: translateX(300px) skewX(-15deg);
+  transition: 0.7s;
+}
+
+.Base[skin="hud2"] button:hover {
+  /* transform: scale(1.1); */
+  filter: brightness(1.4);
+  box-shadow: 0 0 0.5vw rgba(255, 255, 255, 0.25);
+}
+
+.Base[skin="hud2"] button>span {
+  padding: 0.677vw 0vw 0.573vw 0vw;
+  border-radius: 999px;
+  background-image: linear-gradient(#161616, #424242);
+  box-shadow: 0 0.104vw 0vw #fff, 0 0.156vw 0.104vw #666,
+    inset 0 -0.208vw 0.104vw 0.052vw rgba(0, 0, 0, 0.3),
+    inset 0 0.208vw 0.052vw rgba(0, 0, 0, 0.2);
+}
+
+.Base[skin="hud2"] button>span:active {
+  padding: 0.729vw 0vw 0.521vw 0vw;
+  background-image: linear-gradient(#424242, #161616);
+  box-shadow: 0 0.104vw 0vw #666, 0 0.156vw 0.104vw #fff,
+    inset 0 0.208vw 0.052vw rgba(0, 0, 0, 0.2),
+    inset 0 -0.208vw 0.104vw 0.052vw rgba(0, 0, 0, 0.3);
+}
+
+.Base[skin="hud2"] button>span>label {
+  padding: 1.302vw;
+  border-radius: inherit;
+  background: linear-gradient(transparent 10%,
+      rgba(255, 255, 255, 0.2) 5%,
+      rgba(255, 255, 255, 0.2) 27%,
+      transparent 35%);
+  cursor: pointer;
+}
+
+/*==============================
+      ===== Gradient Button CSS ====
+      ==============================*/
+.row.btnContainer {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  top: 87vh;
+  justify-content: center;
+}
+
+/*====================
+ ==== Modal CSS =====
+=====================*/
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

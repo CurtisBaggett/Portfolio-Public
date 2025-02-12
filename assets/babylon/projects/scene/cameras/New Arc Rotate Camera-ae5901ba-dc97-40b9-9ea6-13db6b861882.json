@@ -1,0 +1,118 @@
+{
+	"tags": null,
+	"alpha": 2.244179772144161,
+	"beta": 1.2478097819957852,
+	"radius": 1.9860191261566695,
+	"target": [
+		0,
+		0,
+		0
+	],
+	"inertialAlphaOffset": 0,
+	"inertialBetaOffset": 0,
+	"inertialRadiusOffset": 0,
+	"lowerBetaLimit": 0.01,
+	"upperBetaLimit": 3.1315926535897933,
+	"inertialPanningX": 0,
+	"inertialPanningY": 0,
+	"pinchToPanMaxDistance": 20,
+	"panningOriginTarget": [
+		0,
+		0,
+		0
+	],
+	"panningInertia": 0.9,
+	"zoomToMouseLocation": false,
+	"zoomOnFactor": 1,
+	"targetScreenOffset": [
+		0,
+		0
+	],
+	"allowUpsideDown": true,
+	"useInputToRestoreState": true,
+	"rotation": [
+		0,
+		0,
+		0
+	],
+	"speed": 2,
+	"position": [
+		-1.1745066480373372,
+		0.6303626446640695,
+		1.4722258792007155
+	],
+	"upVector": [
+		0,
+		1,
+		0
+	],
+	"fov": 0.8,
+	"projectionPlaneTilt": 0,
+	"minZ": 0.01,
+	"maxZ": 17085.9375,
+	"inertia": 0.9,
+	"mode": 0,
+	"layerMask": 268435455,
+	"fovMode": 0,
+	"cameraRigMode": 0,
+	"name": "New Arc Rotate Camera",
+	"id": "ae5901ba-dc97-40b9-9ea6-13db6b861882",
+	"state": "",
+	"metadata": {
+		"script": {
+			"name": "None"
+		}
+	},
+	"uniqueId": 1174,
+	"type": "ArcRotateCamera",
+	"inputsmgr": {
+		"ArcRotateCameraKeyboardMoveInput": {
+			"tags": null,
+			"keysUp": [
+				38
+			],
+			"keysDown": [
+				40
+			],
+			"keysLeft": [
+				37
+			],
+			"keysRight": [
+				39
+			],
+			"keysReset": [
+				220
+			],
+			"panningSensibility": 50,
+			"zoomingSensibility": 25,
+			"useAltToZoom": true,
+			"angularSpeed": 0.01
+		},
+		"ArcRotateCameraMouseWheelInput": {
+			"tags": null,
+			"wheelPrecision": 100,
+			"zoomToMouseLocation": false,
+			"wheelDeltaPercentage": 0
+		},
+		"ArcRotateCameraPointersInput": {
+			"tags": null,
+			"buttons": [
+				0,
+				1,
+				2
+			],
+			"angularSensibilityX": 1000,
+			"angularSensibilityY": 1000,
+			"pinchPrecision": 12,
+			"pinchDeltaPercentage": 0,
+			"useNaturalPinchZoom": false,
+			"pinchZoom": true,
+			"panningSensibility": 2000,
+			"multiTouchPanning": true,
+			"multiTouchPanAndZoom": true
+		}
+	},
+	"animations": [],
+	"ranges": [],
+	"isEnabled": true
+}

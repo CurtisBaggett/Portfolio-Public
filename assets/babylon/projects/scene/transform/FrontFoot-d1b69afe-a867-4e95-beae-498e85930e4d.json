@@ -1,0 +1,55 @@
+{
+	"tags": null,
+	"position": [
+		0,
+		0,
+		-0.0024483883753418922
+	],
+	"rotation": [
+		0,
+		0,
+		0
+	],
+	"rotationQuaternion": [
+		-0.09168604761362076,
+		1.585422353400645e-7,
+		1.1046692094396349e-7,
+		0.9957879781723022
+	],
+	"scaling": [
+		1,
+		0.9999997615814209,
+		0.9999997615814209
+	],
+	"billboardMode": 0,
+	"scalingDeterminant": 1,
+	"infiniteDistance": false,
+	"ignoreNonUniformScaling": false,
+	"reIntegrateRotationIntoRotationQuaternion": false,
+	"name": "FrontFoot",
+	"id": "d1b69afe-a867-4e95-beae-498e85930e4d",
+	"state": "",
+	"metadata": {},
+	"type": "TransformNode",
+	"uniqueId": 201,
+	"parentId": "947214bf-20eb-4fe5-b5ef-0b9fe86915ac",
+	"localMatrix": {
+		"0": 1,
+		"1": 0,
+		"2": 0,
+		"3": 0,
+		"4": 0,
+		"5": 1,
+		"6": 0,
+		"7": 0,
+		"8": 0,
+		"9": 0,
+		"10": 1,
+		"11": 0,
+		"12": 0,
+		"13": 0,
+		"14": 0,
+		"15": 1
+	},
+	"isEnabled": true
+}

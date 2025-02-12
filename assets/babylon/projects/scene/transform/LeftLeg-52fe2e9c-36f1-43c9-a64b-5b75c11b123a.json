@@ -1,0 +1,55 @@
+{
+	"tags": null,
+	"position": [
+		-0.0018544024787843227,
+		0,
+		-0.002727524144575
+	],
+	"rotation": [
+		0,
+		0,
+		0
+	],
+	"rotationQuaternion": [
+		0.6981180906295776,
+		0.1123460978269577,
+		0.11233578622341156,
+		0.6981333494186401
+	],
+	"scaling": [
+		1,
+		1,
+		1
+	],
+	"billboardMode": 0,
+	"scalingDeterminant": 1,
+	"infiniteDistance": false,
+	"ignoreNonUniformScaling": false,
+	"reIntegrateRotationIntoRotationQuaternion": false,
+	"name": "LeftLeg",
+	"id": "52fe2e9c-36f1-43c9-a64b-5b75c11b123a",
+	"state": "",
+	"metadata": {},
+	"type": "TransformNode",
+	"uniqueId": 205,
+	"parentId": "dc18e5c3-3d79-4e94-8d7a-0c50772999d6",
+	"localMatrix": {
+		"0": 1,
+		"1": 0,
+		"2": 0,
+		"3": 0,
+		"4": 0,
+		"5": 1,
+		"6": 0,
+		"7": 0,
+		"8": 0,
+		"9": 0,
+		"10": 1,
+		"11": 0,
+		"12": 0,
+		"13": 0,
+		"14": 0,
+		"15": 1
+	},
+	"isEnabled": true
+}

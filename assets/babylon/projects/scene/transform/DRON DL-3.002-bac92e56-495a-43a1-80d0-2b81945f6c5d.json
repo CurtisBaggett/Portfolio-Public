@@ -1,0 +1,59 @@
+{
+	"tags": null,
+	"position": [
+		-0.00003492284668027423,
+		0,
+		0
+	],
+	"rotation": [
+		0,
+		0,
+		0
+	],
+	"rotationQuaternion": [
+		0,
+		0,
+		0,
+		1
+	],
+	"scaling": [
+		2.981823444366455,
+		2.9818220138549805,
+		2.9818243980407715
+	],
+	"billboardMode": 0,
+	"scalingDeterminant": 1,
+	"infiniteDistance": false,
+	"ignoreNonUniformScaling": false,
+	"reIntegrateRotationIntoRotationQuaternion": false,
+	"name": "DRON DL-3.002",
+	"id": "bac92e56-495a-43a1-80d0-2b81945f6c5d",
+	"state": "",
+	"metadata": {
+		"script": {
+			"name": "None"
+		}
+	},
+	"type": "TransformNode",
+	"uniqueId": 227,
+	"parentId": "43bfafa1-7666-48c4-b2fc-fe9d8a53b6ce",
+	"localMatrix": {
+		"0": 1,
+		"1": 0,
+		"2": 0,
+		"3": 0,
+		"4": 0,
+		"5": 1,
+		"6": 0,
+		"7": 0,
+		"8": 0,
+		"9": 0,
+		"10": 1,
+		"11": 0,
+		"12": 0,
+		"13": 0,
+		"14": 0,
+		"15": 1
+	},
+	"isEnabled": true
+}

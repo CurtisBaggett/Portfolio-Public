@@ -1,0 +1,77 @@
+{
+	"tags": null,
+	"position": [
+		0,
+		0,
+		-0.0028790044598281384
+	],
+	"rotation": [
+		0,
+		0,
+		0
+	],
+	"rotationQuaternion": [
+		0.6095324158668518,
+		-0.00618761358782649,
+		0.00895866472274065,
+		0.792686402797699
+	],
+	"scaling": [
+		0.9999998211860657,
+		0.9999998807907104,
+		0.9999998211860657
+	],
+	"billboardMode": 0,
+	"scalingDeterminant": 1,
+	"infiniteDistance": false,
+	"ignoreNonUniformScaling": false,
+	"reIntegrateRotationIntoRotationQuaternion": false,
+	"name": "wing rotation X2 left ",
+	"id": "8f99382f-1608-49a7-b39d-7d76f13d8950",
+	"state": "",
+	"metadata": {
+		"script": {
+			"name": "None",
+			"properties": {
+				"highlighthName": {
+					"type": "string",
+					"value": ""
+				},
+				"highlighthColor": {
+					"type": "string",
+					"value": "#00FFFF"
+				},
+				"highlightVisible": {
+					"type": "boolean",
+					"value": false
+				},
+				"sceneName": {
+					"type": "string",
+					"value": ""
+				}
+			}
+		}
+	},
+	"type": "TransformNode",
+	"uniqueId": 220,
+	"parentId": "35932013-e4ae-4fbe-8b40-554b1a2299ce",
+	"localMatrix": {
+		"0": 1,
+		"1": 0,
+		"2": 0,
+		"3": 0,
+		"4": 0,
+		"5": 1,
+		"6": 0,
+		"7": 0,
+		"8": 0,
+		"9": 0,
+		"10": 1,
+		"11": 0,
+		"12": 0,
+		"13": 0,
+		"14": 0,
+		"15": 1
+	},
+	"isEnabled": true
+}

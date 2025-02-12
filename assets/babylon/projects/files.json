@@ -1,0 +1,134 @@
+{
+	"models/M240D_air (Base Color).png": {
+		"autoLod": {
+			"disabled": false
+		},
+		"ktxCompression": {
+			"astc": {
+				"quality": "automatic"
+			},
+			"dxt": {
+				"type": "automatic"
+			},
+			"pvrtc": {
+				"quality": "automatic"
+			},
+			"etc1": {
+				"quality": "automatic"
+			},
+			"etc2": {
+				"quality": "automatic"
+			}
+		}
+	},
+	"models/HFD_HemiClouds08_FULL_RES.jpg": {
+		"autoLod": {
+			"disabled": false
+		},
+		"ktxCompression": {
+			"astc": {
+				"quality": "automatic"
+			},
+			"dxt": {
+				"type": "automatic"
+			},
+			"pvrtc": {
+				"quality": "automatic"
+			},
+			"etc1": {
+				"quality": "automatic"
+			},
+			"etc2": {
+				"quality": "automatic"
+			}
+		}
+	},
+	"models/Black_40 (Metallic Roughness).png": {
+		"autoLod": {
+			"disabled": false
+		},
+		"ktxCompression": {
+			"astc": {
+				"quality": "automatic"
+			},
+			"dxt": {
+				"type": "automatic"
+			},
+			"pvrtc": {
+				"quality": "automatic"
+			},
+			"etc1": {
+				"quality": "automatic"
+			},
+			"etc2": {
+				"quality": "automatic"
+			}
+		}
+	},
+	"models/Black_60_Metal (Metallic Roughness).png": {
+		"autoLod": {
+			"disabled": false
+		},
+		"ktxCompression": {
+			"astc": {
+				"quality": "automatic"
+			},
+			"dxt": {
+				"type": "automatic"
+			},
+			"pvrtc": {
+				"quality": "automatic"
+			},
+			"etc1": {
+				"quality": "automatic"
+			},
+			"etc2": {
+				"quality": "automatic"
+			}
+		}
+	},
+	"models/Black_80 (Metallic Roughness).png": {
+		"autoLod": {
+			"disabled": false
+		},
+		"ktxCompression": {
+			"astc": {
+				"quality": "automatic"
+			},
+			"dxt": {
+				"type": "automatic"
+			},
+			"pvrtc": {
+				"quality": "automatic"
+			},
+			"etc1": {
+				"quality": "automatic"
+			},
+			"etc2": {
+				"quality": "automatic"
+			}
+		}
+	},
+	"models/Dron DL-3 (Base Color).png": {
+		"autoLod": {
+			"disabled": false
+		},
+		"ktxCompression": {
+			"astc": {
+				"quality": "automatic"
+			},
+			"dxt": {
+				"type": "automatic"
+			},
+			"pvrtc": {
+				"quality": "automatic"
+			},
+			"etc1": {
+				"quality": "automatic"
+			},
+			"etc2": {
+				"quality": "automatic"
+			}
+		}
+	}
+}

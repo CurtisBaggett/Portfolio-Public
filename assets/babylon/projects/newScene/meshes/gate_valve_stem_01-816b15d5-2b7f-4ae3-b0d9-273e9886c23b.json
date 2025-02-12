@@ -1,0 +1,173 @@
+{
+	"materials": [],
+	"meshes": [
+		{
+			"name": "gate_valve_stem_01",
+			"id": "816b15d5-2b7f-4ae3-b0d9-273e9886c23b",
+			"uniqueId": 50,
+			"type": "Mesh",
+			"position": [
+				-1.1917291e-7,
+				-0.350829661,
+				1.009612e-7
+			],
+			"rotationQuaternion": [
+				9.767001e-8,
+				-0.9122393,
+				-2.174948e-7,
+				-0.409657717
+			],
+			"scaling": [
+				1,
+				1,
+				1
+			],
+			"localMatrix": {
+				"0": 1,
+				"1": 0,
+				"2": 0,
+				"3": 0,
+				"4": 0,
+				"5": 1,
+				"6": 0,
+				"7": 0,
+				"8": 0,
+				"9": 0,
+				"10": 1,
+				"11": 0,
+				"12": 0,
+				"13": 0,
+				"14": 0,
+				"15": 1
+			},
+			"isEnabled": true,
+			"isVisible": true,
+			"infiniteDistance": false,
+			"pickable": true,
+			"receiveShadows": false,
+			"billboardMode": 0,
+			"visibility": 1,
+			"checkCollisions": false,
+			"isBlocker": false,
+			"overrideMaterialSideOrientation": 0,
+			"parentId": "94b35ef8-b8ba-459b-8332-2264f1c57beb",
+			"isUnIndexed": false,
+			"geometryId": "b04096a9-2f1c-49da-85de-b6ffe3f08f68",
+			"subMeshes": null,
+			"materialId": "ba67f4f6-5ba4-42d1-be79-e3dbb3691979",
+			"metadata": {
+				"gltf": {
+					"extras": {
+						"paramrenderwidth": 2048,
+						"paramrenderheight": 2048,
+						"paramfacecolor": [
+							0.7058824,
+							0.20784314,
+							0.09019608
+						],
+						"paramedgecolor": [
+							1,
+							0.7764706,
+							0
+						],
+						"paramedgewidth": 1
+					}
+				},
+				"basePoseMatrix": {
+					"0": 0.6643611192703247,
+					"1": 3.563937127637473e-7,
+					"2": -0.7474117875099182,
+					"3": 0,
+					"4": 2.124272064946576e-14,
+					"5": 1,
+					"6": 4.76837158203125e-7,
+					"7": 0,
+					"8": -0.7474117875099182,
+					"9": 3.16792068133509e-7,
+					"10": -0.6643611192703247,
+					"11": 0,
+					"12": 0.00005800388316856697,
+					"13": -0.1259574294090271,
+					"14": -0.00006525266508106142,
+					"15": 1
+				},
+				"originalSourceFile": {
+					"id": "gate_valve_stem_01",
+					"name": "gate_valve_stem_01",
+					"sceneFileName": "models/Gate_Valve.glb"
+				},
+				"isPickable": false
+			},
+			"instances": [],
+			"animations": [],
+			"ranges": [],
+			"layerMask": 268435455,
+			"alphaIndex": 1.7976931348623157e+308,
+			"hasVertexAlpha": false,
+			"overlayAlpha": 0.3,
+			"overlayColor": [
+				1,
+				0,
+				0
+			],
+			"applyFog": true,
+			"delayLoadingFile": "geometries/b04096a9-2f1c-49da-85de-b6ffe3f08f68.babylonbinarymeshdata",
+			"boundingBoxMaximum": [
+				0.013542629778385162,
+				0.13454483449459076,
+				0.012871399521827698
+			],
+			"boundingBoxMinimum": [
+				-0.013539575040340424,
+				-0.14916999638080597,
+				-0.012877069413661957
+			],
+			"_binaryInfo": {
+				"positionsAttrDesc": {
+					"count": 681,
+					"stride": 3,
+					"offset": 0,
+					"dataType": 1
+				},
+				"normalsAttrDesc": {
+					"count": 681,
+					"stride": 3,
+					"offset": 2724,
+					"dataType": 1
+				},
+				"uvsAttrDesc": {
+					"count": 454,
+					"stride": 2,
+					"offset": 5448,
+					"dataType": 1
+				},
+				"tangetsAttrDesc": {
+					"count": 908,
+					"stride": 3,
+					"offset": 7264,
+					"dataType": 1
+				},
+				"indicesAttrDesc": {
+					"count": 852,
+					"stride": 1,
+					"offset": 10896,
+					"dataType": 0
+				},
+				"subMeshesAttrDesc": {
+					"count": 1,
+					"stride": 5,
+					"offset": 14304,
+					"dataType": 0
+				}
+			},
+			"positions": null,
+			"normals": null,
+			"uvs": null,
+			"hasUVs": true,
+			"tangents": null,
+			"indices": null
+		}
+	],
+	"multiMaterials": [],
+	"lods": []
+}

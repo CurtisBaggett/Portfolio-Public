@@ -1,0 +1,195 @@
+{
+	"materials": [],
+	"meshes": [
+		{
+			"name": "gate_valve_body_lower_01",
+			"id": "4de3b7df-a6e9-49eb-b3c1-91506c1f9362",
+			"uniqueId": 66,
+			"type": "Mesh",
+			"position": [
+				0.00007262827,
+				-0.1628006,
+				-0.05960461
+			],
+			"rotationQuaternion": [
+				-2.38418579e-7,
+				0,
+				0,
+				1
+			],
+			"scaling": [
+				1.00000012,
+				1.00000012,
+				1.00000012
+			],
+			"localMatrix": {
+				"0": 1,
+				"1": 0,
+				"2": 0,
+				"3": 0,
+				"4": 0,
+				"5": 1,
+				"6": 0,
+				"7": 0,
+				"8": 0,
+				"9": 0,
+				"10": 1,
+				"11": 0,
+				"12": 0,
+				"13": 0,
+				"14": 0,
+				"15": 1
+			},
+			"isEnabled": true,
+			"isVisible": true,
+			"infiniteDistance": false,
+			"pickable": true,
+			"receiveShadows": false,
+			"billboardMode": 0,
+			"visibility": 1,
+			"checkCollisions": false,
+			"isBlocker": false,
+			"overrideMaterialSideOrientation": 0,
+			"parentId": "ec342ff9-3b57-44b9-b81f-59f3d2f87897",
+			"isUnIndexed": false,
+			"geometryId": "28bf2ef6-ee1f-4963-ba98-2cfbd2a6e6bf",
+			"subMeshes": null,
+			"materialId": "ba67f4f6-5ba4-42d1-be79-e3dbb3691979",
+			"metadata": {
+				"gltf": {
+					"extras": {
+						"paramrenderwidth": 2048,
+						"paramrenderheight": 2048,
+						"paramfacecolor": [
+							0.7058824,
+							0.20784314,
+							0.09019608
+						],
+						"paramedgecolor": [
+							1,
+							0.7764706,
+							0
+						],
+						"paramedgewidth": 1
+					}
+				},
+				"basePoseMatrix": {
+					"0": -0.9999998807907104,
+					"1": 0,
+					"2": 0,
+					"3": 0,
+					"4": 0,
+					"5": 0.9999998807907104,
+					"6": 4.7683710135970614e-7,
+					"7": 0,
+					"8": 0,
+					"9": -4.7683710135970614e-7,
+					"10": 0.9999998807907104,
+					"11": 0,
+					"12": -0.00007262825965881348,
+					"13": 0.16280055046081543,
+					"14": 0.05960468202829361,
+					"15": 1
+				},
+				"originalSourceFile": {
+					"id": "gate_valve_body_lower_01",
+					"name": "gate_valve_body_lower_01",
+					"sceneFileName": "models/Gate_Valve.glb"
+				},
+				"isPickable": false,
+				"script": {
+					"name": "src/scenes/scripts/OutlineScript.ts",
+					"properties": {
+						"highlighthName": {
+							"type": "string",
+							"value": ""
+						},
+						"highlighthColor": {
+							"type": "string",
+							"value": "#00FFFF"
+						},
+						"highlightVisible": {
+							"type": "boolean",
+							"value": false
+						},
+						"sceneName": {
+							"type": "string",
+							"value": "scene"
+						}
+					}
+				},
+				"renderingGroupId": 0
+			},
+			"instances": [],
+			"animations": [],
+			"ranges": [],
+			"layerMask": 268435455,
+			"alphaIndex": 1.7976931348623157e+308,
+			"hasVertexAlpha": false,
+			"overlayAlpha": 0.3,
+			"overlayColor": [
+				1,
+				0,
+				0
+			],
+			"applyFog": true,
+			"delayLoadingFile": "geometries/28bf2ef6-ee1f-4963-ba98-2cfbd2a6e6bf.babylonbinarymeshdata",
+			"boundingBoxMaximum": [
+				0.06103837490081787,
+				0.11013008654117584,
+				0.05957060307264328
+			],
+			"boundingBoxMinimum": [
+				-0.061053842306137085,
+				-0.07010921835899353,
+				-0.020731281489133835
+			],
+			"_binaryInfo": {
+				"positionsAttrDesc": {
+					"count": 5655,
+					"stride": 3,
+					"offset": 0,
+					"dataType": 1
+				},
+				"normalsAttrDesc": {
+					"count": 5655,
+					"stride": 3,
+					"offset": 22620,
+					"dataType": 1
+				},
+				"uvsAttrDesc": {
+					"count": 3770,
+					"stride": 2,
+					"offset": 45240,
+					"dataType": 1
+				},
+				"tangetsAttrDesc": {
+					"count": 7540,
+					"stride": 3,
+					"offset": 60320,
+					"dataType": 1
+				},
+				"indicesAttrDesc": {
+					"count": 5214,
+					"stride": 1,
+					"offset": 90480,
+					"dataType": 0
+				},
+				"subMeshesAttrDesc": {
+					"count": 1,
+					"stride": 5,
+					"offset": 111336,
+					"dataType": 0
+				}
+			},
+			"positions": null,
+			"normals": null,
+			"uvs": null,
+			"hasUVs": true,
+			"tangents": null,
+			"indices": null
+		}
+	],
+	"multiMaterials": [],
+	"lods": []
+}

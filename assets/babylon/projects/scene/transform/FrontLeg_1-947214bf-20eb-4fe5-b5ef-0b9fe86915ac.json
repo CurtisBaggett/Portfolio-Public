@@ -1,0 +1,55 @@
+{
+	"tags": null,
+	"position": [
+		0,
+		0,
+		-0.0016380362212657928
+	],
+	"rotation": [
+		0,
+		0,
+		0
+	],
+	"rotationQuaternion": [
+		-0.6601123213768005,
+		1.1281800738061065e-7,
+		-1.5839033551401371e-7,
+		0.7511669397354126
+	],
+	"scaling": [
+		1,
+		1,
+		1
+	],
+	"billboardMode": 0,
+	"scalingDeterminant": 1,
+	"infiniteDistance": false,
+	"ignoreNonUniformScaling": false,
+	"reIntegrateRotationIntoRotationQuaternion": false,
+	"name": "FrontLeg_1",
+	"id": "947214bf-20eb-4fe5-b5ef-0b9fe86915ac",
+	"state": "",
+	"metadata": {},
+	"type": "TransformNode",
+	"uniqueId": 198,
+	"parentId": "d56d8999-1537-4efa-ad8a-4a545c5ecceb",
+	"localMatrix": {
+		"0": 1,
+		"1": 0,
+		"2": 0,
+		"3": 0,
+		"4": 0,
+		"5": 1,
+		"6": 0,
+		"7": 0,
+		"8": 0,
+		"9": 0,
+		"10": 1,
+		"11": 0,
+		"12": 0,
+		"13": 0,
+		"14": 0,
+		"15": 1
+	},
+	"isEnabled": true
+}

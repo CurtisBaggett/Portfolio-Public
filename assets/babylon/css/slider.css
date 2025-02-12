@@ -1,0 +1,222 @@
+.row.sliderContainer {
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  top: 75vh;
+  justify-content: center;
+}
+
+/* Slider Bar Styling */
+input[type="range"] {
+  appearance: none;
+  margin-right: 1vw;
+  background: #d4d4d4;
+  background-image: linear-gradient(#00ff45, #169714);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 3px 0 #222;
+}
+
+/* Input Thumb Styling */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #00ff45;
+  cursor: pointer;
+  box-shadow: 0 0 2px 0 #555;
+  transition: background 0.3s ease-in-out;
+}
+
+input[type="range"]::-moz-range-thumb {
+  appearance: none;
+  background: #00ff45;
+  cursor: pointer;
+  box-shadow: 0 0 2px 0 #555;
+}
+
+input[type="range"]::-ms-thumb {
+  background: #00ff45;
+  cursor: pointer;
+  box-shadow: 0 0 2px 0 #555;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  background: #16bf13;
+}
+
+input[type="range"]::-moz-range-thumb:hover {
+  background: #16bf13;
+}
+
+input[type="range"]::-ms-thumb:hover {
+  background: #16bf13;
+}
+
+/* Input Track */
+input[type="range"]::-webkit-slider-runnable-track {
+  appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+input[type="range"]::-moz-range-track {
+  appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+input[type="range"]::-ms-track {
+  appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+/************** SLIDER BREAKPOINTS *************/
+
+/*-- Screen Size 500px to 768 px --*/
+@media (min-width: 500px) and (max-width: 768px) {
+  input[type="range"] {
+    height: 1vh;
+    width: 13vw;
+  }
+
+  input[type="range"]::-ms-thumb {
+    height: 3vh;
+    width: 0.6vw;
+    border-radius: 30%;
+  }
+  input[type="range"]::-moz-range-thumb {
+    height: 3vh;
+    width: 0.6vw;
+    border-radius: 30%;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    height: 3vh;
+    width: 0.6vw;
+    border-radius: 30%;
+  }
+
+  .row.btnContainer {
+    top: 86vh;
+  }
+
+  .row.sliderContainer {
+    top: 73vh;
+  }
+}
+
+/*-- Screen Size 769px to 920 px --*/
+@media (min-width: 769px) and (max-width: 920px) {
+  input[type="range"] {
+    height: 1.1vh;
+    width: 13vw;
+  }
+
+  input[type="range"]::-ms-thumb {
+    height: 3vh;
+    width: 0.5vw;
+    border-radius: 30%;
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    height: 3vh;
+    width: 0.5vw;
+    border-radius: 30%;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    height: 3vh;
+    width: 0.5vw;
+    border-radius: 30%;
+  }
+}
+
+/*-- Screen Size 921px to 1200 px --*/
+@media (min-width: 921px) and (max-width: 1200px) {
+  input[type="range"] {
+    height: 1.5vh;
+    width: 14vw;
+  }
+
+  input[type="range"]::-ms-thumb {
+    height: 3.3vh;
+    width: 0.8vw;
+    border-radius: 30%;
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    height: 3.3vh;
+    width: 0.8vw;
+    border-radius: 30%;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    height: 3.3vh;
+    width: 0.8vw;
+    border-radius: 30%;
+  }
+}
+
+/*-- Screen Size 1201px to 1440px --*/
+@media (min-width: 1201px) and (max-width: 1440px) {
+  input[type="range"] {
+    height: 1.5vh;
+    width: 13vw;
+  }
+  input[type="range"]::-ms-thumb {
+    height: 3.2vh;
+    width: 0.6vw;
+    border-radius: 30%;
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    height: 3.2vh;
+    width: 0.6vw;
+    border-radius: 30%;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    height: 3.2vh;
+    width: 0.6vw;
+    border-radius: 30%;
+  }
+}
+
+/*-- Screen Size 1440px and up --*/
+@media (min-width: 1441px) {
+  input[type="range"] {
+    height: 1.3vh;
+    width: 13vw;
+  }
+  input[type="range"]::-ms-thumb {
+    height: 3.2vh;
+    width: 0.5vw;
+    border-radius: 30%;
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    height: 3.2vh;
+    width: 0.5vw;
+    border-radius: 30%;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    height: 3.2vh;
+    width: 0.5vw;
+    border-radius: 30%;
+  }
+}
+
+/*=======================
+ ====== Slider Labels ======
+========================*/
+h1.sliderLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Electrolize", "Roboto", sans-serif;
+  font-size: 2vh;
+  padding: 0vh;
+}

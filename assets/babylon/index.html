@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Babylon.js Generated Template</title>
+
+    <script src="./dist/bundle.js" type="text/javascript"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/slider.css"> -->
+
+    <style rel="stylesheet" type="text/css">
+        html,
+        body {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #renderCanvas {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            touch-action: none;
+            -ms-touch-action: none;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="renderCanvas"></canvas>
+
+    <!-- Bottom Buttons-->
+    <div class="row btnContainer">
+
+        <div class="Base">
+            <button class="button" id="helpButton">
+                <label id="help">Help</label>
+            </button>
+        </div>
+
+        <div class="Base" style='display: block;' id="playContainer">
+        </div>
+
+        <div class="Base" style='display: block;' id="openContainer">
+            </button>
+        </div>
+
+        <div class="Base">
+            <div id="slidecontainer">
+            </div>
+        </div>
+
+        <div class="Base">
+            <div class="toggle-container">
+                <input id="labelToggle" type="checkbox" checked="true" />
+                <div class="toggle round"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+<div id="helpModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p><b>Click and Drag</b> - Rotates model around in space</p>
+      <p><b>Hover/Landing</b> - Plays the associated animation</p>
+      <p><b>Fade Slider</b> - Shows and hides associated meshes</p>
+      <p><b>On/Off Toggle</b> - Shows and hides Labels</p>
+      <p>Rolling over the labels will highlight the associated mesh, and rolling over the mesh will also show highlight.</p>
+    </div>
+  </div>
+
+<script src="js/helpModal.js"></script>
+<script type="text/javascript">
+    window.game = new window.game.Game();
+</script>
+</body>
+
+</html>

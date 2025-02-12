@@ -1,0 +1,185 @@
+{
+	"materials": [],
+	"meshes": [
+		{
+			"name": "DRON DL-3.002_primitive0",
+			"id": "c321e796-e5dd-4346-974d-24b5c80e400e",
+			"uniqueId": 228,
+			"type": "Mesh",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scaling": [
+				1,
+				1,
+				1
+			],
+			"localMatrix": {
+				"0": 1,
+				"1": 0,
+				"2": 0,
+				"3": 0,
+				"4": 0,
+				"5": 1,
+				"6": 0,
+				"7": 0,
+				"8": 0,
+				"9": 0,
+				"10": 1,
+				"11": 0,
+				"12": 0,
+				"13": 0,
+				"14": 0,
+				"15": 1
+			},
+			"isEnabled": true,
+			"isVisible": true,
+			"infiniteDistance": false,
+			"pickable": true,
+			"receiveShadows": false,
+			"billboardMode": 0,
+			"visibility": 1,
+			"checkCollisions": false,
+			"isBlocker": false,
+			"overrideMaterialSideOrientation": 0,
+			"parentId": "bac92e56-495a-43a1-80d0-2b81945f6c5d",
+			"isUnIndexed": false,
+			"geometryId": "780c6912-245f-4bd5-8cdb-27a097370049",
+			"subMeshes": null,
+			"materialId": "1c079dad-7fcc-4c3d-a6dd-6e96e7f8596a",
+			"metadata": {
+				"basePoseMatrix": {
+					"0": -0.008518277667462826,
+					"1": -3.4109239877011532e-9,
+					"2": -1.5628895955188682e-9,
+					"3": 0,
+					"4": -3.022678773945131e-9,
+					"5": 0.007377046626061201,
+					"6": 0.004259134642779827,
+					"7": 0,
+					"8": 4.4404005472564734e-10,
+					"9": -0.004259137436747551,
+					"10": 0.007377040572464466,
+					"11": 0,
+					"12": 0.0014584813034161925,
+					"13": -0.0022873145062476397,
+					"14": 0.00020894530462101102,
+					"15": 1
+				},
+				"originalSourceFile": {
+					"id": "DRON DL-3.002_primitive0",
+					"name": "DRON DL-3.002_primitive0",
+					"sceneFileName": "models/DroneNew.glb"
+				},
+				"isPickable": false,
+				"script": {
+					"name": "src/scenes/scripts/OutlineScript.ts",
+					"properties": {
+						"highlighthName": {
+							"type": "string",
+							"value": ""
+						},
+						"highlighthColor": {
+							"type": "string",
+							"value": "#00FFFF"
+						},
+						"highlightVisible": {
+							"type": "boolean",
+							"value": false
+						},
+						"sceneName": {
+							"type": "string",
+							"value": ""
+						}
+					}
+				},
+				"renderingGroupId": 0
+			},
+			"instances": [],
+			"animations": [],
+			"ranges": [],
+			"layerMask": 268435455,
+			"alphaIndex": 1.7976931348623157e+308,
+			"hasVertexAlpha": true,
+			"overlayAlpha": 0.3,
+			"overlayColor": [
+				1,
+				0,
+				0
+			],
+			"applyFog": true,
+			"delayLoadingFile": "geometries/780c6912-245f-4bd5-8cdb-27a097370049.babylonbinarymeshdata",
+			"boundingBoxMaximum": [
+				0.001623378717340529,
+				0.00048528899787925184,
+				0.000009935538400895894
+			],
+			"boundingBoxMinimum": [
+				-0.0017206374322995543,
+				-0.0004410854016896337,
+				-0.003006438259035349
+			],
+			"_binaryInfo": {
+				"positionsAttrDesc": {
+					"count": 12921,
+					"stride": 3,
+					"offset": 0,
+					"dataType": 1
+				},
+				"normalsAttrDesc": {
+					"count": 12921,
+					"stride": 3,
+					"offset": 51684,
+					"dataType": 1
+				},
+				"uvsAttrDesc": {
+					"count": 8614,
+					"stride": 2,
+					"offset": 103368,
+					"dataType": 1
+				},
+				"uvs2AttrDesc": {
+					"count": 8614,
+					"stride": 2,
+					"offset": 137824,
+					"dataType": 1
+				},
+				"colorsAttrDesc": {
+					"count": 17228,
+					"stride": 4,
+					"offset": 172280,
+					"dataType": 1
+				},
+				"indicesAttrDesc": {
+					"count": 5922,
+					"stride": 1,
+					"offset": 241192,
+					"dataType": 0
+				},
+				"subMeshesAttrDesc": {
+					"count": 1,
+					"stride": 5,
+					"offset": 264880,
+					"dataType": 0
+				}
+			},
+			"positions": null,
+			"normals": null,
+			"uvs": null,
+			"hasUVs": true,
+			"uv2s": null,
+			"hasUVs2": true,
+			"colors": null,
+			"indices": null
+		}
+	],
+	"multiMaterials": [],
+	"lods": []
+}

@@ -1,0 +1,48 @@
+{
+	"tags": null,
+	"groundColor": [
+		0,
+		0,
+		0
+	],
+	"direction": [
+		0,
+		1,
+		0
+	],
+	"diffuse": [
+		1,
+		1,
+		1
+	],
+	"specular": [
+		1,
+		1,
+		1
+	],
+	"falloffType": 0,
+	"intensity": 1,
+	"range": 100,
+	"intensityMode": 0,
+	"radius": 0.00001,
+	"_renderPriority": 0,
+	"shadowEnabled": true,
+	"excludeWithLayerMask": 0,
+	"includeOnlyWithLayerMask": 0,
+	"lightmapMode": 0,
+	"name": "Viewport Light",
+	"id": "e63bd34c-eee8-4c49-ad88-49db924f6990",
+	"state": "",
+	"metadata": {
+		"script": {
+			"name": "None"
+		},
+		"_waitingParentId": null
+	},
+	"uniqueId": 244,
+	"type": 3,
+	"animations": [],
+	"ranges": [],
+	"isEnabled": true,
+	"parentId": null
+}

@@ -1,0 +1,55 @@
+{
+	"tags": null,
+	"position": [
+		0,
+		0,
+		-0.0022580462973564863
+	],
+	"rotation": [
+		0,
+		0,
+		0
+	],
+	"rotationQuaternion": [
+		-0.8208718299865723,
+		5.526865152205573e-7,
+		-2.947122368368582e-7,
+		0.5711123943328857
+	],
+	"scaling": [
+		1,
+		1.0000001192092896,
+		1
+	],
+	"billboardMode": 0,
+	"scalingDeterminant": 1,
+	"infiniteDistance": false,
+	"ignoreNonUniformScaling": false,
+	"reIntegrateRotationIntoRotationQuaternion": false,
+	"name": "wing rotation X1 right ",
+	"id": "fa24d841-fb18-4fab-9bbf-71aea0d8e371",
+	"state": "",
+	"metadata": {},
+	"type": "TransformNode",
+	"uniqueId": 241,
+	"parentId": "177ff790-4123-49d0-9e1f-df2fefb65143",
+	"localMatrix": {
+		"0": 1,
+		"1": 0,
+		"2": 0,
+		"3": 0,
+		"4": 0,
+		"5": 1,
+		"6": 0,
+		"7": 0,
+		"8": 0,
+		"9": 0,
+		"10": 1,
+		"11": 0,
+		"12": 0,
+		"13": 0,
+		"14": 0,
+		"15": 1
+	},
+	"isEnabled": true
+}
